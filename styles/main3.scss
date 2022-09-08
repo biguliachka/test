@@ -1,0 +1,300 @@
+@import url(./main2.scss);
+
+@media screen and(max-width: 320px) {
+    header {
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 320px;
+        height: 540px;
+        background-image: url(../images/Background-1.png);
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 35px;
+
+        container {
+            padding: 20px 20px 20px 20px;
+            width: 320px;
+
+            .header-title {
+                width: 0;
+                height: 0;
+            }
+            .line {
+                margin-left: 15px;
+                width: 200px;
+                .log-in {
+                    margin-right: 20px;
+                }
+            }
+            .title {
+                width: 281px;
+                margin-left: 8px;
+                .share-your {
+                    width: 266.04px;
+                    height: 58.72px;
+                    background-position: center;
+                    background-size: cover;
+                    margin-bottom: 18px;
+                }
+                .and-find {
+                    width: 236px;
+                    height: 42px;
+                    background-image: url(../images/And-find1.png);
+                    margin-bottom: 15px;
+                }
+                .find {
+                    width: 280px;
+                }
+            }
+        }
+    }
+
+    content {
+        width: 320px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        container {
+            width: 320px;
+            height: 820px;
+            h1 {
+                width: 320px;
+
+                margin-bottom: 10px;
+            }
+
+            .how-it-work {
+                width: 320px;
+                height: 800px;
+                .steps {
+                    width: 320px;
+                    height: 740px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .step {
+                        width: 300px;
+                        height: 240px;
+                        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+                        &-1 {
+                            background-image: url(../images/Step-1.png);
+                            background-position: center;
+                            background-size: cover;
+                            padding: 64px 38px 17px 20px;
+                            h2 {
+                                line-height: 15px;
+                                margin-bottom: 12px;
+                            }
+                        }
+                        &-2 {
+                            border-radius: 4px;
+                            background-image: url(../images/Step2.png);
+                            background-position: center;
+                            background-size: cover;
+                            padding: 95px 35px 0 20px;
+                            h2 {
+                                line-height: 16px;
+                            }
+                        }
+                        &-3 {
+                            border-radius: 4px;
+                            background-image: url(../images/Step3.png);
+                            background-position: center;
+                            background-size: cover;
+                            padding: 64px 25px 0 20px;
+                            h2 {
+                                line-height: 15px;
+                                margin-bottom: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        container {
+            height: 1200px;
+            .meet-partner {
+                margin-top: -75px;
+                width: 320px;
+                height: 1030px;
+
+                h1 {
+                    line-height: 25px;
+                }
+
+                .persons {
+                    width: 300px;
+                    height: 900px;
+                    flex-direction: column;
+                    .people1 {
+                        padding: 5px 0 0 20px;
+                        display: flex;
+                        align-items: center;
+                        width: 268px;
+                        height: 440px;
+                    }
+                    .person {
+                        width: 250px;
+
+                        a {
+                            width: 100%;
+                        }
+                    }
+                }
+                button2 {
+                    width: 280px;
+                    margin-top: 30px;
+                    padding: 11px 0 12px 0;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                }
+            }
+        }
+
+        container {
+            .ideas {
+                width: 300px;
+                height: 0px;
+                h1 {
+                    margin-top: -65px;
+                    width: 250px;
+                    line-height: 25px;
+                    padding: 0 0 30px 45px;
+                }
+                .box {
+                    width: 300px;
+                    height: auto;
+                    flex-direction: column;
+                    padding-left: 2px;
+                    margin: 0;
+
+                    .text {
+                        width: 235px;
+                        height: 120px;
+                        padding-left: 35px;
+                    }
+                    .text-big {
+                        width: 300px;
+                        height: 120px;
+                    }
+                    .mask,
+                    .mask-big {
+                        width: 300px;
+                        height: 120px;
+                    }
+                    .sport,
+                    .health,
+                    .extreme,
+                    .games,
+                    .culture,
+                    .enjomet,
+                    .trevelling {
+                        width: 300px;
+                        height: 120px;
+                        margin-bottom: 10px;
+                        padding: 0;
+                        background-position-x: 0%;
+                        background-position-y: 50%;
+                        background-size: cover;
+                    }
+                    .trevelling{
+                        background-position-y: 10%;
+                    }
+                }
+            }
+        }
+        container {
+            display: flex;
+            justify-content: center;
+
+            .interests {
+                width: 320px;
+                margin-top: 865px;
+                h1 {
+                    width: 290px;
+                    padding-left: 32px;
+                    line-height: 25px;
+                }
+                p {
+                    width: 315px;
+                    margin: -5px;
+                }
+                .search {
+                    width: 280px;
+                    display: flex;
+                    flex-direction: column;
+                    padding-top: 22px;
+
+                    input[type="text-search"] {
+                        margin-left: 17px;
+
+                        width: 280px;
+                        height: 40px;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    }
+                    a {
+                        margin: 4px 0 0 17px;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        width: 280px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-top: 495px;
+        width: 320px;
+        align-items: center;
+        text-align: center;
+
+        container {
+            padding: 0;
+            flex-direction: column;
+            padding-top: 15px;
+            p {
+                padding-bottom: 19px;
+            }
+            .footer-title {
+                padding-right: 0;
+            }
+            .company {
+                padding-top: 3px;
+                padding-right: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .a1,
+                .a2 {
+                    display: block;
+                }
+                p {
+                    height: 10px;
+                    padding-top: 10px;
+                }
+                a {
+                    margin-right: 7px;
+
+                    padding-bottom: 11px;
+                    float: left;
+                }
+            }
+            .partners {
+                padding: 3px 0 0 0;
+            }
+            .designed {
+                margin-top: -10px;
+                height: 55px;
+
+                a {
+                    padding-left: 0px;
+                }
+                .stiker {
+                    margin: auto;
+                    width: 110px;
+                    height: 24px;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}

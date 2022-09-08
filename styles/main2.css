@@ -1,0 +1,183 @@
+@import url(../styles/main.scss);
+@media screen and (max-width: 768px) {
+  header {
+    width: 768px;
+    background-position-x: center;
+  }
+  header container {
+    width: 748px;
+    padding: 42px 50px 235px 42px;
+  }
+  header container .line {
+    width: 668px;
+  }
+  header container .title {
+    width: 658px;
+  }
+  content {
+    width: 768px;
+    height: 2640px;
+  }
+  content container {
+    width: 768px;
+  }
+  content container h1 {
+    margin-top: -1px;
+    font-size: 22px;
+    letter-spacing: 0.6px;
+    margin-bottom: 31px;
+  }
+  content container .how-it-work {
+    width: 748px;
+  }
+  content container .how-it-work .steps {
+    width: 748px;
+  }
+  content container .how-it-work .steps .step {
+    width: 236px;
+  }
+  content container .how-it-work .steps .step-1 {
+    padding: 205px 25px 0 20px;
+  }
+  content container .how-it-work .steps .step-1 h2 {
+    line-height: 15px;
+    margin-bottom: 30px;
+  }
+  content container .how-it-work .steps .step-2 {
+    padding: 255px 35px 0 20px;
+  }
+  content container .how-it-work .steps .step-2 h2 {
+    line-height: 16px;
+  }
+  content container .how-it-work .steps .step-3 {
+    padding: 205px 25px 0 20px;
+  }
+  content container .how-it-work .steps .step-3 h2 {
+    line-height: 15px;
+    margin-bottom: 30px;
+  }
+  content container .meet-partner {
+    width: 648px;
+    height: 605px;
+  }
+  content container .meet-partner .persons {
+    width: 514px;
+    height: 605px;
+    justify-content: space-between;
+  }
+  content container .meet-partner .persons .people1 {
+    flex-direction: column;
+    width: 268px;
+  }
+  content container .meet-partner .persons .person {
+    width: 247px;
+    padding-left: 7px;
+  }
+  content container .meet-partner .persons .person a {
+    width: 100%;
+  }
+  content container .meet-partner button2 {
+    margin-top: -16px;
+    padding: 11px 0 12px 0;
+  }
+  content container .ideas {
+    width: 748px;
+  }
+  content container .box {
+    width: 750px;
+    height: 310px;
+    padding-left: 2px;
+  }
+  content container .box .mask, content container .box .mask-big {
+    width: 236px;
+    height: 310px;
+  }
+  content container .box .mask-big {
+    width: 492px;
+  }
+  content container .box .health {
+    width: 236px;
+    height: 310px;
+    background-position-x: 63%;
+  }
+  content container .box .sport {
+    width: 236px;
+    height: 310px;
+    background-position-x: 63%;
+  }
+  content container .box .sport .text {
+    margin-top: -14px;
+  }
+  content container .box .extreme {
+    width: 236px;
+    height: 310px;
+    background-position-x: 30%;
+  }
+  content container .box .games {
+    width: 236px;
+    height: 310px;
+    background-position-x: 45%;
+  }
+  content container .box .trevelling {
+    width: 236px;
+    height: 310px;
+    background-position-x: 0%;
+  }
+  content container .box .culture,
+content container .box .enjomet {
+    width: 492px;
+    height: 310px;
+  }
+  content container .box .text {
+    letter-spacing: 0.4px;
+    margin-left: 20px;
+    width: 190px;
+    height: 310px;
+  }
+  content container .box .text-big {
+    margin-left: 0px;
+    width: 492px;
+  }
+  content container .interests {
+    width: 638px;
+  }
+  content container .interests .search {
+    width: 638px;
+  }
+  content container .interests .search input[type=text-search] {
+    width: 300px;
+  }
+  footer {
+    width: 768px;
+  }
+  footer container {
+    padding: 36px 0 0 39px;
+  }
+  footer container p {
+    padding-bottom: 19px;
+  }
+  footer container .footer-title {
+    padding-right: 110px;
+  }
+  footer container .company {
+    padding-top: 3px;
+    padding-right: 55px;
+  }
+  footer container .company a {
+    padding-bottom: 11px;
+  }
+  footer container .partners {
+    padding: 3px 120px 0 0;
+  }
+  footer container .designed {
+    height: 55px;
+  }
+  footer container .designed a {
+    padding-left: 28px;
+  }
+  footer container .designed .stiker {
+    width: 110px;
+    height: 24px;
+    margin-top: 5px;
+  }
+}/*# sourceMappingURL=main2.css.map */

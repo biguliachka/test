@@ -1,0 +1,197 @@
+@import url(../styles/main.scss);
+@media screen and(max-width: 768px) {
+    header {
+        width: 768px;
+        background-position-x: center;
+        container {
+            width: 748px;
+            padding: 42px 50px 235px 42px;
+            .line {
+                width: 668px;
+            }
+            .title {
+                width: 658px;
+            }
+        }
+    }
+    content {
+        width: 768px;
+        height: 2640px;
+        container {
+            h1 {
+                margin-top: -1px;
+                font-size: 22px;
+                letter-spacing: 0.6px;
+                margin-bottom: 31px;
+            }
+            width: 768px;
+            .how-it-work {
+                width: 748px;
+                .steps {
+                    width: 748px;
+                    .step {
+                        width: 236px;
+                        &-1 {
+                            padding: 205px 25px 0 20px;
+                            h2 {
+                                line-height: 15px;
+                                margin-bottom: 30px;
+                            }
+                        }
+                        &-2 {
+                            padding: 255px 35px 0 20px;
+                            h2 {
+                                line-height: 16px;
+                            }
+                        }
+                        &-3 {
+                            padding: 205px 25px 0 20px;
+                            h2 {
+                                line-height: 15px;
+                                margin-bottom: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        container {
+            .meet-partner {
+                width: 648px;
+                height: 605px;
+
+                .persons {
+                    width: 514px;
+                    height: 605px;
+                    justify-content: space-between;
+                    .people1 {
+                        flex-direction: column;
+                        width: 268px;
+                    }
+                    .person {
+                        width: 247px;
+                        padding-left: 7px;
+
+                        a {
+                            width: 100%;
+                        }
+                    }
+                }
+                button2 {
+                    margin-top: -16px;
+                    padding: 11px 0 12px 0;
+                }
+            }
+        }
+
+        container {
+            .ideas {
+                width: 748px;
+            }
+            .box {
+                width: 750px;
+                height: 310px;
+                padding-left: 2px;
+                .mask {
+                    width: 236px;
+                    height: 310px;
+                }
+                .mask-big {
+                    @extend .mask;
+                    width: 492px;
+                }
+
+                .health {
+                    width: 236px;
+                    height: 310px;
+                    background-position-x: 63%;
+                }
+                .sport {
+                    width: 236px;
+                    height: 310px;
+                    background-position-x: 63%;
+                    .text {
+                        margin-top: -14px;
+                    }
+                }
+                .extreme {
+                    width: 236px;
+                    height: 310px;
+                    background-position-x: 30%;
+                }
+                .games {
+                    width: 236px;
+                    height: 310px;
+                    background-position-x: 45%;
+                }
+                .trevelling {
+                    width: 236px;
+                    height: 310px;
+                    background-position-x: 0%;
+                }
+                .culture,
+                .enjomet {
+                    width: 492px;
+                    height: 310px;
+                }
+
+                .text {
+                    letter-spacing: 0.4px;
+                    margin-left: 20px;
+
+                    width: 190px;
+                    height: 310px;
+                }
+                .text-big {
+                    margin-left: 0px;
+                    width: 492px;
+                }
+            }
+        }
+
+        container {
+            .interests {
+                width: 638px;
+                .search {
+                    width: 638px;
+                    input[type="text-search"] {
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        width: 768px;
+        container {
+            padding: 36px 0 0 39px;
+            p {
+                padding-bottom: 19px;
+            }
+            .footer-title {
+                padding-right: 110px;
+            }
+            .company {
+                padding-top: 3px;
+                padding-right: 55px;
+                a {
+                    padding-bottom: 11px;
+                }
+            }
+            .partners {
+                padding: 3px 120px 0 0;
+            }
+            .designed {
+                height: 55px;
+                a {
+                    padding-left: 28px;
+                }
+                .stiker {
+                    width: 110px;
+                    height: 24px;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}
